@@ -1,0 +1,33 @@
+.slider-container{
+    margin: 0 auto;
+    max-width: 90% ;
+    display: flex;
+}
+
+.slider-container button{
+    text-align: center;
+    display: block;
+}
+
+.slider-container .image-container{
+    display: flex;
+
+    width: 51%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+ 
+    
+
+}
+
+.slider-container .image-container img{
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slider-container .image-container .image-wrapper{
+    display: flex;
+    position: relative;
+    
+}
