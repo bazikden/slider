@@ -11,8 +11,6 @@ myslider2.imageWidth = 300
 myslider2.imageHeight = 400
 myslider2.init()
 
-
-
-
+const btn = document.getElementById('btn')
 
 

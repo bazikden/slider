@@ -1,0 +1,23 @@
+{
+  "name": "slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slider.js",
+  "scripts": {
+    
+    "style": " stylus -w ./style.styl -o ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazikden/slider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bazikden/slider/issues"
+  },
+  "homepage": "https://github.com/bazikden/slider#readme",
+  "dependencies": {
+    "stylus": "^0.54.7"
+  }
+}
