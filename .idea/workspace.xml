@@ -2,416 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304db326-3dd4-4c0f-9a68-eac33ae57f71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/atob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/atob.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/stylus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/stylus.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/LICENSE.DOCS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/bin/atob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/browser-atob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/node-atob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/atob/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/balanced-match/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/brace-expansion/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/brace-expansion/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/brace-expansion/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/brace-expansion/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/README.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/example/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/concat-map/test/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css-parse/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css-parse/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css-parse/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/History.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/parse/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/compiler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/compress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/identity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/lib/stringify/source-map-support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/dist/source-map.debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/dist/source-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/dist/source-map.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/dist/source-map.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/array-set.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/base64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/binary-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/mapping-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/quick-sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/source-node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/lib/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/source-map.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/node_modules/source-map/source-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/.coveralls.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/src/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/src/debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/debug/src/node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/decode-uri-component/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/decode-uri-component/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/decode-uri-component/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/decode-uri-component/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/old.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fs.realpath/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob/glob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/glob/sync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inflight/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inflight/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inflight/inflight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inflight/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inherits/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inherits/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inherits/inherits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimatch/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimatch/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimatch/minimatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimatch/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/example/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/long.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/short.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minimist/test/whitespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/usage.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/examples/pow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/readme.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/chmod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/clobber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/mkdirp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs_sync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/perm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/perm_sync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/race.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/rel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/return.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/return_sync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/sync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/umask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/umask_sync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ms/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ms/license.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ms/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/ms/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/once/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/once/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/once/once.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/once/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/resolve-url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/resolve-url/test/resolve-url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/safer-buffer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/safer-buffer/Porting-Buffer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/safer-buffer/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/safer-buffer/dangerous.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/safer-buffer/safer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/safer-buffer/tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sax/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sax/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sax/lib/sax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sax/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/semver/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/semver/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/semver/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/semver/bin/semver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/semver/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/semver/range.bnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/semver/semver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/generate-source-map-resolve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/lib/decode-uri-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/lib/resolve-url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/lib/source-map-resolve-node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/source-map-resolve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/source-map-resolve.js.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/test/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/test/read.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/test/source-map-resolve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/test/windows.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/x-package.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/source-map-url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/test/source-map-url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-url/x-package.json5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/array-set.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/base64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/binary-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/mapping-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/mappings.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/read-wasm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/lib/wasm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/source-map.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map/source-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/dictionaries/kobez.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/dictionaries/kobez_000.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/dictionaries/kobezzza.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/shelf/Default_Changelist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/shelf/Default_Changelist/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/stylus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/History.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/bin/stylus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/browserify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/cache/fs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/cache/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/cache/memory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/cache/null.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/convert/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/add-property.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/adjust.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/alpha.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/base-convert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/basename.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/blend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/clone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/contrast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/convert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/current-media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/define.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/dirname.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/extname.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/hsl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/hsla.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/hue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/image-size.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/index.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/length.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/lightness.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/list-separator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/lookup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/luminosity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/match.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/math-prop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/math.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/merge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/operate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/opposite-position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/p.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/pathjoin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/pop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/prefix-classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/push.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/red.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/remove.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/resolver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/rgb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/rgba.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/s.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/saturation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/selector-exists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/shift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/split.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/substr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/tan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/trace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/transparentify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/unit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/unquote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/unshift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/use.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/warn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/lexer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/arguments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/atblock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/atrule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/binop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/block.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/boolean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/call.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/charset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/each.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/expression.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/extend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/feature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/hsla.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/ident.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/if.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/import.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/keyframes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/literal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/member.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/namespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/null.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/params.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/property.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/query-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/query.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/return.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/rgba.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/supports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/ternary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/unaryop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/unit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/renderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/selector-parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/stack/frame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/stack/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/stack/scope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/stylus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/token.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/units.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/compiler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/deps-resolver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/evaluator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/normalizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/sourcemapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/stylus/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/urix/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/urix/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/urix/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/urix/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/urix/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/urix/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/wrappy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -424,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -485,6 +85,7 @@
         <option value="$PROJECT_DIR$/style.styl" />
         <option value="$PROJECT_DIR$/slider.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -572,18 +173,18 @@
       <option name="presentableId" value="Default" />
       <updated>1571848356826</updated>
       <workItem from="1571848364058" duration="11288000" />
-      <workItem from="1571908177972" duration="12417000" />
+      <workItem from="1571908177972" duration="12988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23705000" />
+    <option name="totallyTimeSpent" value="24276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -648,6 +249,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
