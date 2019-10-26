@@ -28,3 +28,44 @@
   box-sizing: border-box;
   position: relative;
 }
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.container .search {
+  display: flex;
+  position: relative;
+  height: 30px;
+}
+.container .search-input {
+  padding: 0 0 0 10px;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.container .search .inputerror {
+  border: 2px solid #f00;
+  color: #f00;
+  display: block;
+}
+.container .search-btn {
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  border: 2px solid #000;
+  box-sizing: border-box;
+b
+  z-index: 1;
+  background: url("./images/search.jpg") center top;
+  background-size: contain;
+  right: 0;
+}
+.container .error {
+  color: #f00;
+  padding: 5px 0 10px 20px;
+  display: none;
+}

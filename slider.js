@@ -6,49 +6,57 @@ function Slider(arr, name) {
         this.imageMargin = 10,
         this.showedPictures = 3,
         this.imageHeight = 200,
-        this.root = '.root',
-        this.prevposition = 0
-
-    this.init = () => {
-        //this.createDOM('div',`slider-container ${name}`,'root',null)  // root is class of parrent component of slider
-        let el = document.createElement('div')
-        el.className = `slider-container ${name}`
-        document.querySelector(this.root).appendChild(el)   //
-
-        createDOM('div', `image-container ${name}`, `slider-container`)
-        createDOM('img', `prev ${name}`, `image-container`)
-        createDOM('div', `image-wrapper ${name}`, `image-container`)
+        this.root = '.root',  // root is class of parrent component of slider
 
 
-        for (let i = 0; i < this.showedPictures + 2; i++) {
-            createDOM('img', `image ${name}`, `image-wrapper`)
+        this.init = () => {
+            let el = document.createElement('div')
+            el.className = `slider-container ${name}`
+            document.querySelector(this.root).appendChild(el)   //
+
+            createDOM('div', `image-container ${name}`, `slider-container`)
+            createDOM('img', `prev ${name}`, `image-container`)
+            createDOM('div', `image-wrapper ${name}`, `image-container`)
+
+
+            for (let i = 0; i < this.showedPictures + 2; i++) {
+                createDOM('img', `image ${name}`, `image-wrapper`)
+            }
+            createDOM('img', `next ${name}`, `image-container`)
+
+            this.prevBtn = document.querySelector(`.prev.${name}`)
+            this.prevBtn.src = './images/arrow.png'
+            this.nextBtn = document.querySelector(`.next.${name}`)
+            this.nextBtn.src = './images/arrow.png'
+            this.image = document.querySelectorAll(`.image.${name}`)
+            this.imageWrapper = document.querySelector(`.image-wrapper.${name}`)
+            this.imageWrapper.style.width = this.imageWidth * this.image.length + this.imageMargin * this.image.length * 2 + 'px'
+            this.imageWrapper.style.left = `-${this.imageWidth + 2 * this.imageMargin}px`
+
+            for (let k = 0; k < this.image.length; k++) {
+                this.image[k].style.width = this.imageWidth + 'px'
+                this.image[k].style.height = this.imageHeight + 'px'
+                this.image[k].style.margin = '0 ' + this.imageMargin + 'px'
+            }
+            this.imageContainer = document.querySelector(`.image-container.${name}`)
+            this.imageContainer.style.width = (this.imageWidth * (this.showedPictures)) + this.imageMargin * ((this.showedPictures * 2)) + 'px'
+            this.nextBtn.addEventListener('click', this.onNextBtnClick)
+            this.prevBtn.addEventListener('click', onPrevBtnClick)
+            for (let i = 0; i < this.image.length; i++) {
+                this.image[i].src = this.imageArr[i + this.pictureIndex]
+            }
+
+            navArrowsPosition()
+
+
         }
-        createDOM('img', `next ${name}`, `image-container`)
 
-        this.prevBtn = document.querySelector(`.prev.${name}`)
-        this.prevBtn.src = './images/arrow.png'
-        this.nextBtn = document.querySelector(`.next.${name}`)
-        this.nextBtn.src = './images/arrow.png'
+    this.updatePhoto =(arr) =>{
+        this.imageArr = arr
         this.image = document.querySelectorAll(`.image.${name}`)
-        this.imageWrapper = document.querySelector(`.image-wrapper.${name}`)
-        this.imageWrapper.style.width = this.imageWidth * this.image.length + this.imageMargin * this.image.length * 2 + 'px'
-        this.imageWrapper.style.left = `-${this.imageWidth + 2 * this.imageMargin}px`
-
-        for (let k = 0; k < this.image.length; k++) {
-            this.image[k].style.width = this.imageWidth + 'px'
-            this.image[k].style.height = this.imageHeight + 'px'
-            this.image[k].style.margin = '0 ' + this.imageMargin + 'px'
-        }
-        this.imageContainer = document.querySelector(`.image-container.${name}`)
-        this.imageContainer.style.width = (this.imageWidth * (this.showedPictures)) + this.imageMargin * ((this.showedPictures * 2)) + 'px'
-        this.nextBtn.addEventListener('click', onNextBtnClick)
-        this.prevBtn.addEventListener('click', onPrevBtnClick)
         for (let i = 0; i < this.image.length; i++) {
             this.image[i].src = this.imageArr[i + this.pictureIndex]
         }
-
-        navArrowsPosition()
-
 
     }
 
@@ -61,7 +69,7 @@ function Slider(arr, name) {
     }
 
 
-    const onNextBtnClick = () => {
+    this.onNextBtnClick = () => {
         this.prevBtn.removeEventListener('click', onPrevBtnClick)
         this.prevBtn.addEventListener('click', onPrevBtnClick)
         let position = 0
@@ -96,8 +104,9 @@ function Slider(arr, name) {
 
 
     const onPrevBtnClick = () => {
-        this.nextBtn.removeEventListener('click', onNextBtnClick)
-        this.nextBtn.addEventListener('click', onNextBtnClick)
+        this.nextBtn.removeEventListener('click', this.onNextBtnClick)
+        this.nextBtn.addEventListener('click', this.onNextBtnClick)
+
         let position = 0
         let interval = setInterval(() => {
             position = 10
@@ -133,25 +142,23 @@ function Slider(arr, name) {
 
     const navArrowsPosition = () => {
         const container = document.querySelector(`.image-container .${name} `).parentNode
-        console.log(container)
+
         const coords = container.getBoundingClientRect()
-        console.log(coords)
-        this.prevBtn.style.left =  this.imageMargin + 'px'
+
+        this.prevBtn.style.left = this.imageMargin + 'px'
         this.prevBtn.style.top = coords.height / 2 - 25 + "px"
         this.nextBtn.style.top = coords.height / 2 - 25 + "px"
-        this.nextBtn.style.right =  this.imageMargin + 'px'
+        this.nextBtn.style.right = this.imageMargin + 'px'
 
     }
 
-    const onWindowChange = () =>{
-        console.log(window.innerWidth)
+    const onWindowChange = () => {
+
         const elem = document.querySelector(`.image-container .${name} `).parentNode
-        const countImages = Math.floor(window.innerWidth/(this.imageWidth + (this.imageMargin*2)))
-        console.log(countImages)
-        console.log(elem)
-        this.showedPictures >=countImages && (elem.style.width = (this.imageWidth + this.imageMargin*2) * countImages +'px')
+        const countImages = Math.floor(window.innerWidth / (this.imageWidth + (this.imageMargin * 2)))
+        this.showedPictures >= countImages && (elem.style.width = (this.imageWidth + this.imageMargin * 2) * countImages + 'px')
     }
-    window.addEventListener('resize',onWindowChange)
+    window.addEventListener('resize', onWindowChange)
 
 
 }
